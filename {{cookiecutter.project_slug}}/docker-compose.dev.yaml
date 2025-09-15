@@ -1,0 +1,10 @@
+services:
+  api:
+    image: "{{cookiecutter.project_slug}}/api:${VERSION}"
+    command: --reload
+    tty: true
+    stdin_open: true
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/code/src

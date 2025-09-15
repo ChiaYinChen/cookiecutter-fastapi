@@ -1,0 +1,7 @@
+{
+  "author": "Carol Chen",
+  "email": "awdrg1210@gmail.com",
+  "project_name": "fastapi example project",
+  "project_slug":  "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_description": ""
+}
