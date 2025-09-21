@@ -52,7 +52,7 @@ down:
 
 build-api:
 	@echo "🚀 Building api image..."
-	docker build -t "first-project/api:$(VERSION)" .
+	docker build -t "{{cookiecutter.project_slug}}/api:$(VERSION)" .
 
 logs-%:
 	@echo "🚀 Showing logs for $*..."
